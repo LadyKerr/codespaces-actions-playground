@@ -23,7 +23,7 @@ This repository contains simple demos and pipelines showcasing the use of GitHub
   with:
     fromPhoneNumber: ${{ secrets.TWILIO_PHONE_NUMBER }}
     toPhoneNumber: ${{ secrets.MY_PHONE_NUMBER }}
-    message: 'Hello from Twilio'
+    message: 'Hello from GitHub Actions via Twilio'
   env:
     TWILIO_ACCOUNT_SID: ${{ secrets.TWILIO_ACCOUNT_SID }}
     TWILIO_API_KEY: ${{ secrets.TWILIO_API_KEY }}
