@@ -18,14 +18,15 @@ This repository contains simple demos and pipelines showcasing the use of GitHub
 - [Send a text message with GitHub Actions](https://github.com/marketplace/actions/twilio-sms)
 
 
-```- name: 'Sending SMS Notification'
-  uses: twilio-labs/actions-sms@v1
-  with:
-    fromPhoneNumber: ${{ secrets.TWILIO_PHONE_NUMBER }}
-    toPhoneNumber: ${{ secrets.MY_PHONE_NUMBER }}
-    message: 'Hello from GitHub Actions via Twilio'
-  env:
-    TWILIO_ACCOUNT_SID: ${{ secrets.TWILIO_ACCOUNT_SID }}
-    TWILIO_API_KEY: ${{ secrets.TWILIO_API_KEY }}
-    TWILIO_API_SECRET: ${{ secrets.TWILIO_API_SECRET }}
+```yaml
+- name: Send SMS with twilio
+        uses: twilio-labs/actions-sms@v1
+        with:
+          fromPhoneNumber: ${{ secrets.TWILIO_PHONE_NUMBER }}
+          toPhoneNumber: ${{ secrets.MY_PHONE_NUMBER }}
+          message: "Hello from GitHub Actions via Twilio"
+        env:
+          TWILIO_ACCOUNT_SID: ${{ secrets.TWILIO_ACCOUNT_SID }}
+          TWILIO_API_KEY: ${{ secrets.TWILIO_API_KEY }}
+          TWILIO_API_SECRET: ${{ secrets.TWILIO_API_SECRET }}
 ```
