@@ -2,7 +2,7 @@
 
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?hide_repo_select=true&ref=main&repo=623718616&machine=standardLinux32gb&devcontainer_path=.devcontainer%2Fdevcontainer.json&location=EastUs)
 
-This repo contains resources and demos for the talk "There's an Action for That! Exploring the possibilitis of GitHub Actions" that I presented.
+This repository contains resources and demos for the talk "There's an Action for That! Exploring the possibilitis of GitHub Actions" that I presented.
 
 # Slides ✨
 
